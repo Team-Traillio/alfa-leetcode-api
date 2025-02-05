@@ -32,7 +32,7 @@ const fetchProblems = async (
         },
       }),
     });
-    console.log(response)
+    // console.log(response)
 
     const result = await response.json();
 
